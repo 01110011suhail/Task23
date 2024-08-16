@@ -5,6 +5,7 @@ import DailyStreak from '../DailyStreak/DailyStreak'
 import Banner from '../Banner/Banner'
 // import DailyFunGame from '../DailyFunGame/DailyFunGame'
 import VideoSection from '../VideoSection/VideoSection'
+import Navbar from '../Navbar/Navbar'
 // import PopularCourses
 // import {Link,link } from "react-router-dom";
 
@@ -12,7 +13,7 @@ import VideoSection from '../VideoSection/VideoSection'
 const Home = () => {
   return (
     <div>
-      <Nbars />
+      <Navbar />
       <Banner />
       <div className="main-content">
          <VideoSection />

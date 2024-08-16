@@ -1,0 +1,154 @@
+/* DailyStreak.css
+.daily-streak {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .streak-calendar {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .badge-tracker {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+   */
+
+   /* .daily-streak {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .streak-calendar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .calendar-day {
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .calendar-day.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .badge-tracker {
+    margin-top: 20px;
+  }
+  
+  .badge-tracker h4 {
+    margin-bottom: 10px;
+  }
+  
+  .badge-tracker ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .badge-tracker li {
+    background-color: #ffeb3b;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+   */
+   .streak-tracker-container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: -90px;
+    width: 300px;
+    margin-top: -190px;
+    margin-left: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .streak-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .streak-icon {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .streak-details h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .streak-details p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .streak-calendar {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  
+  .day {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
+  .day.active {
+    background-color: #4caf50;
+  }
+  
+  .streak-targets {
+    margin-top: 10px;
+  }
+  
+  .streak-targets h4 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .badges {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b0b0b0;
+  }
+  
+  .badge.achieved {
+    color: #ffbf00; /* Change color for achieved badge */
+  }
+  
+  .badge span {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  

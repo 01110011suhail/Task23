@@ -1,0 +1,222 @@
+/* Navbar.css
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0073e6;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-explore {
+    position: relative;
+  }
+  
+  .explore-button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .explore-button:hover + .dropdown-content {
+    display: block;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mic-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-auth button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar-lang select {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+  }
+   */
+
+   .navbarBelt {
+    background-color: #0e61cd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    color: white;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.leftnavbelt {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.leftNavBeltLogo {
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.navbarlogo {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.navbarBeltSeacrhBox {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.navbarBeltSearchDiv {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.navbarBeltSearchBoxAll {
+    display: flex;
+    background-color: #fff;
+    gap: 9px;
+    border-radius: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    cursor: pointer;
+    color: blue;
+}
+
+.navbarBeltSearchBoxAllText {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbarBeltInputSeacrhBox {
+    padding: 12px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+
+    &::placeholder {
+        color: #696565;
+        font-size: 15px;
+        font-weight: 500;
+        
+        
+    }
+    
+    &:focus {
+        position: relative;
+        outline: none;
+    }
+}
+
+.searchIconNavbarBeltIcon {
+     font-size: 20px;
+     position: absolute;
+    padding: 0px;
+    margin: 10px 0px 0px 650px ;
+     color: rgb(60, 59, 59);/*
+    background: #fff;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;  */
+}
+.searchMicIcon{
+
+    font-size: 15px;
+    padding: 7px;
+    color: white;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.rightSideNavbarBelt {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.HomePagesignIn, .HomePagesignUp {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    gap: 12px;
+    cursor: pointer;
+    color: blue;
+    font-weight: 600;
+    font-size: 14px;
+}
+.HomePagesignIn{
+    background: transparent;
+    color: white;
+    border: 1px solid;
+}
+
+.HomePagesignIn:hover, .HomePagesignUp:hover {
+    background-color: #f1ba73;
+}
+
+.IdianFlagCode {
+    display: flex;
+    align-items: center;
+}
+
+.indiaCodeNavbarBelt {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid white;
+}

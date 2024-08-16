@@ -1,0 +1,26 @@
+/* Banner.css */
+.banner{
+
+     
+  background: linear-gradient(180deg, rgb(250, 178, 42),rgb(247, 202, 134));
+  margin: 14px;
+  width: 70%;
+  height: 16vh;
+  border-radius: 10px;
+  padding: 10px;
+
+
+
+}
+
+h1,p{
+/* margin-left: 34px; */
+margin: 20px 0px 0px 34px;
+
+
+
+}
+p{
+margin-top: 0px;
+}
+  

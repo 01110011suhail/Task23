@@ -42,7 +42,7 @@
 
 // export default Navbar;
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // import { useTranslation } from 'react-i18next';
 // import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 // import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
@@ -51,8 +51,12 @@ import { AiOutlineSearch } from "react-icons/ai";
 
 
 import './Navbar.css';
+import {useNavigate, Link } from 'react-router-dom';
 
 const Navbar = () => {
+      const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const navigate = useNavigate();
   // const { t, i18n } = useTranslation();
 
   // const changeLanguage = (lang) => {
@@ -133,7 +137,10 @@ const Navbar = () => {
 
             
 
-<section section className='HomePagesignIn'>Sign in   </section>
+<section section className='HomePagesignIn'>Sign in
+<Link to="/signin">Sign in</Link>
+  
+     </section>
 <section className='HomePagesignUp'>Sign up</section>
  
      

@@ -1,5 +1,5 @@
 import React from 'react'
-import Nbars from '../Navbar/Nbars'
+// import Nbars from '../Navbar/Nbars'
 import DailyFunGame from '../DailyFunGame/DailyFunGame'
 import DailyStreak from '../DailyStreak/DailyStreak'
 import Banner from '../Banner/Banner'

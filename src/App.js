@@ -46,6 +46,7 @@ import SignIn from '../src/components/Home/SignIn/SignIn';
 import Home2 from './components/Home/Home2';
 // import LHome from './components/LoginInHome/LHome';
 // import Library from './Pages/Library/Library';
+import SignUp from '../src/components/Home/SignIn/SignUp'
 
 function App() {
   return (
@@ -56,8 +57,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/signin" element={<SignIn />} />
-        {/* <Route path="/signup" element={<SignUp />} /> */}
-        {/* <Route path="/LHome" element={<LHome />} /> */}
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/Home2" element={<Home2 />} />
       </Routes>
    
     </Router>
